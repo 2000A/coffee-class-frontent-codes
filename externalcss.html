@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>coffeee class - 14th Aug '22</title>
+    <link rel="stylesheet" href="./css/style-aug21.css"/>
+</head>
+<body>
+    <h1>Learn tables and forms</h1>
+
+    <div>
+        <h2>Learn Tables</h2>
+
+        <table>
+            <caption>
+                Friends information
+            </caption>
+                 
+            <tr>
+                <th>Name</th>
+                <th>City</th>
+                <th>Phone</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>Vikas Ranjan</td>
+                <td>Gurgaon</td>
+                <td>548795312</td>
+                <td>vikas@gmail.com</td>
+            <tr>
+                <td>Anil Kumar</td>
+                <td>Bihar</td>
+                <td>548564212</td>
+                <td>anil@gmail.com</td>
+                
+            </tr>
+            <tr>
+                <td>Manoj Patil</td>
+                <td>Tamil Nadu</td>
+                <td>987598462</td>
+                <td>manoj@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Vikcy</td>
+                <td>Maharastra</td>
+                <td>989984578</td>
+                <td>vika658@gmail.com</td>
+            </tr>
+        </table>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <div>
+        <h2>Learn HTML forms</h2>
+        <form>
+        <fieldset>
+                <legend>Personal Information</legend>
+          <div>
+            <label>
+                Enter your name:
+                <input type="text" placeholder="e.g.Vikas Ranjan" required value="Abhishek Ram" disabled/>
+            </label>
+          </div>
+          
+          <br>
+          
+          <div>
+            <lable>
+                Enter your password:
+                <input type="password" placeholder="e.g.min 8 characters" required/>
+            </lable>
+          </div>
+          <br>
+          
+          <div>
+            <lable>
+                Enter your date of birth:
+                <input type="date" />
+            </lable>
+          </div>
+          <br />
+          <div>
+            <label>
+                Enter your gender:
+                <lable>
+                    <input type="radio" name="gender" value="Male"/>
+                    Male
+                </lable>
+
+                <lable>
+                    <input type="radio" name="gender" value="Female"/>
+                    Female
+                </lable>
+                
+                <lable>
+                    <input type="radio" name="gender" value="Others"/>
+                    Others
+                </lable>
+            </label>
+          </div>
+          
+          
+        </fieldset>
+
+        <fieldset>
+            <legend>Contact Information</legend>
+          <div>
+            <lable>
+                Enter your email:
+                <input type="email" placeholder="e.g.ranjan@gamail.com" required/>
+            </lable>
+          </div>
+
+          <br>
+          <div>
+            <lable>
+                Enter your phone number:
+                <input type="number" placeholder="e.g. 5487989945" required/>
+            </lable>
+          </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Location details</legend>
+
+            <div>
+                <label>
+                    Select state:
+                    <select name="state">
+                        <option value="Assam">Assam</option>
+                        <option value="Bihar">Bihar</option>
+                        <option value="Mangalore">Mangalore</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Leh & Ladhak">Leh & Ladhak</option>
+                        <option value="Maharastra">Maharastra</option>
+                        <option value="Orissa">Orissa</option>
+                        <option value="Bengal">Bengal</option>
+                        <option value="Jammu">Jammu</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                    </select>
+
+                </label>
+            </div>
+
+            <br />
+            <br />
+            <br />
+            <br />
+
+            <div>
+            <label>
+                Select your prefferd city:
+
+
+
+                <lable>
+                    <input 
+                        type="checkbox"
+                        name="center"
+                        value="Maharastra"
+                        disabled
+                    />
+                    Maharastra
+                </lable>
+                
+                <lable>
+                    <input 
+                        type="checkbox"
+                        name="center"
+                        value="Jammu"
+                    />
+                    Jammu
+                </lable>
+
+                <lable>
+                    <input 
+                        type="checkbox"
+                        name="center"
+                        value="UtterPradesh"
+                    />
+                    UtterPradesh
+                </lable>
+
+                <lable>
+                    <input 
+                        type="checkbox"
+                        name="center"
+                        value="Goa"
+                    />
+                    Goa
+                </lable>
+
+                <lable>
+                    <input 
+                        type="checkbox"
+                        name="center"
+                        value="Chennai"
+                    />
+                    Chennai
+                </lable>
+                
+                </lable>
+            </label>
+            </div>
+            <br />
+            
+            <div>
+                <label>
+                    Eenter your address:
+                    <label>
+                        <textarea
+                        id="address"
+                        rows="10"
+                        cols="40"
+                        placeholder="Address...."
+                        required
+                        ></textarea>
+                    </label>
+                </label>
+            </div>
+            
+        </fieldset>
+        <br />
+        <br />
+        <div>
+            <input type="submit"/>
+            <input type="reset"/>
+        </div>
+        </form>
+
+    </div>
+</body>
+</html>
