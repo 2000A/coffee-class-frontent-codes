@@ -1,0 +1,24 @@
+h1{
+    background: yellow;
+}
+body{
+    background: rgb(255,0,0);
+    height: 100vh;
+   /* background-image: url('../image/pink.jpg'); here we have background for color as red but background-image gets higher priority.*/
+    background-image: url('../image/flowers.gif'), url('../image/rose.gif');
+    background-repeat: no-repeat;
+    /*background-repeat: repeat-x;*/
+    /* background-repeat: round; */
+    background-position:center center;
+    background-attachment:fixed;
+    background-size:contain;
+}
+span{
+    background: #00ff00;
+}
+div{
+    color:blueviolet;
+}
+p{
+    color:darkcyan;
+}

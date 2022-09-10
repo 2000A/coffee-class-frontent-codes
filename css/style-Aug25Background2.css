@@ -1,0 +1,5 @@
+body{
+    /*background-image: linear-gradient(red,white,black,brown,purple,green,grey);*/
+    background-image: radial-gradient(white,black,brown,purple,green,grey);
+    height: 100vh;
+}
